@@ -32,7 +32,7 @@ When distress is detected, it provides **non-intrusive interventions** like **ge
 ## **📦 Dataset**
 
 - **FER2013** – Facial Emotion Recognition dataset  
-- **YawDD / NTHU-DDD** – Drowsiness detection (eye closure, yawning)  
+- **NTHU-DDD** – Drowsiness detection (eye closure, yawning)  
 - Custom webcam-augmented images  
 
 _Preprocessing_: 48×48 grayscale for optimized inference.
