@@ -76,17 +76,18 @@ _Preprocessing_: 48×48 grayscale for optimized inference.
 
 ```mermaid
 flowchart TD
-    A[Webcam Input / In-cabin Video] --> B[Face Detection (MediaPipe FaceMesh)]
-    B --> C[ROI Cropping & Preprocessing (48x48 Grayscale)]
-    C --> D[Deep Learning Model (CNN, QAT INT8)]
-    D --> E{Prediction: Distressed?}
-    E -- Yes --> F[Trigger Intervention: Audio Alert]
-    E -- No --> G[Continue Monitoring]
+    A["Webcam Input / In-cabin Video"] --> B["Face Detection - MediaPipe FaceMesh"]
+    B --> C["ROI Cropping & Preprocessing - 48x48 Grayscale"]
+    C --> D["Deep Learning Model - CNN QAT INT8"]
+    D --> E{"Prediction: Distressed?"}
+    E -- Yes --> F["Trigger Intervention - Audio Alert"]
+    E -- No --> G["Continue Monitoring"]
     F --> G
     G --> A
 ```
+---
 
-🚀 How to Run
+## **🚀 How to Run**
 
 Clone repository
 
@@ -110,8 +111,9 @@ Run the program
 ```
 python driver_wellness_monitor.py
 ```
+---
 
-Controls:
+## **Controls:**
 
 Q → Quit
 
@@ -125,8 +127,9 @@ F → Toggle fullscreen
 
 M → Toggle face mesh overlay
 
+---
 
-📊 Performance
+## **📊 Performance**
 
 Real-time inference ~30 FPS
 
@@ -134,7 +137,9 @@ Validation Accuracy: ~81–82%
 
 Optimized INT8 TFLite model suitable for edge deployment
 
-📝 Future Enhancements
+---
+
+## **📝 Future Enhancements**
 
 Multimodal detection (steering + wearables)
 
@@ -144,7 +149,9 @@ Cloud integration for fleet analytics
 
 Integration with infotainment systems
 
-📌 References
+---
+
+## **📌 References**
 
 FER2013 Dataset
 
