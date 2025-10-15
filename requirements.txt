@@ -1,0 +1,10 @@
+opencv-python 
+mediapipe 
+tensorflow 
+tensorflow-model-optimization 
+pandas 
+scikit-learn 
+pygame
+numpy
+tf_keras
+tqdm
