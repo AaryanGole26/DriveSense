@@ -31,11 +31,13 @@ When distress is detected, it provides **non-intrusive interventions** like **ge
 
 ## **📦 Dataset**
 
-- **FER2013** – Facial Emotion Recognition dataset  
-- **NTHU-DDD** – Drowsiness detection (eye closure, yawning)  
+- **FER2013** – Facial Emotion Recognition dataset: [Download here](https://www.kaggle.com/datasets/msambare/fer2013)  
+- **NTHU-DDD** – Drowsiness detection (eye closure, yawning): [Download here](https://www.kaggle.com/datasets/samymesbah/nthu-dataset-ddd-multi-class)
 - Custom webcam-augmented images  
 
 _Preprocessing_: 48×48 grayscale for optimized inference.
+
+> **Dataset Prep:** See [`prepare_dataset.py`](./prep_dataset.py) for dataset preprocessing steps.
 
 ---
 
@@ -46,6 +48,9 @@ _Preprocessing_: 48×48 grayscale for optimized inference.
 - Face detection via **MediaPipe FaceMesh**, ROI cropping, grayscale conversion, normalization  
 - Trained using **Adam optimizer** and **binary cross-entropy** loss  
 - **Validation split**: 80/20 train-test  
+
+
+> **Training Script:** Refer to [`train_quantized_model.py`](./train_quantized_model.py) for full model training and TFLite conversion.
 
 ---
 
@@ -92,7 +97,7 @@ flowchart TD
 Clone repository
 
 ```
-git clone https://github.com/<yourusername>/DriveSense.git
+git clone https://github.com/AaryanGole26/DriveSense.git
 cd DriveSense
 ```
 
