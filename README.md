@@ -19,7 +19,7 @@ DriveSense is an AI-powered driver wellness monitoring system that detects emoti
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/DriveSense.git
+   git clone https://github.com/AaryanGole26/DriveSense.git
    cd DriveSense
    ```
 2. Set up the virtual environment:
@@ -35,6 +35,7 @@ DriveSense is an AI-powered driver wellness monitoring system that detects emoti
 ### Configuration
 1. Place your MP3 tracks in the `songs/` directory.
 2. Ensure you have the `distress_model.tflite` file in the root directory.
+3. Keep `songs/` and `dataset/` local on your machine (they are intentionally not pushed to git).
 
 ## 🎮 Controls
 | Key | Action |

@@ -25,3 +25,7 @@ Thumbs.db
 
 # Downloads/Temp
 songs/*.tmp
+
+# Local data/assets (do not push)
+songs/
+dataset/
