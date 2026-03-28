@@ -1,0 +1,11 @@
+opencv-python 
+mediapipe 
+tensorflow==2.20.0
+tensorflow-model-optimization 
+pandas 
+scikit-learn 
+pygame
+numpy
+tf_keras
+tqdm
+protobuf<6.0,>=5.28.0

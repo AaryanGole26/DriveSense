@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite3
+
+# Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDEs
+.vscode/
+.idea/
+
+# Models & Large Files (Optional to track but usually good to ignore if they are many or large)
+# distress_model.tflite
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Downloads/Temp
+songs/*.tmp
